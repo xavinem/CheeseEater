@@ -1,6 +1,11 @@
 public class Main {
     public static void main(String[] args){
-        System.out.println("hello world!");
+        char[][] room = new char [10][20];
+		for(int i=0; i<room.length; i++) {
+			for(int j=0; j<room[i].length; j++) {
+				room[i][j]='.';
+			}
+		}
     }
 
     //public static void placeWalls(char[][] room, int numberOfWalls, Random randGen) {}
